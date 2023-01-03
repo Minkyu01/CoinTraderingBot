@@ -1,0 +1,2 @@
+# CoinTraderingBot
+first project
