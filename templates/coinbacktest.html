@@ -8,20 +8,39 @@
 </head>
 <body>
     <h1>코인 백</h1>
-    <div class="stock">
-        <p>종목</p>
-        <form>
-             <input id="stock_search" type='text' name="종목" style= "width : 200px; height:30px" placeholder="종목입력해" >
-             <input type="submit" value="제출">
-        </form>
-       
-    </div>
-    <div class="ratio">
-        <p>비ddddf</p>
-    </div>
-    <div class="period">
+ <div class="select_section">
+    <form>
+        <div class="stock">
+            <h3>종목</h3>
+            <input type='text' name="stock_name" style= "width : 200px; height:30px" placeholder="종목입력해" >
 
-    </div>
-    <div class="initial_amount"></div>
+        </div>
+        <div class="ratio">
+            <h3>비율</h3>
+            <input type="number" min="1" max="100" placeholder="1-100" name="ratio_value">
+            
+        </div>
+        <div class="period">
+            <h3>기간 설정</h3>        
+            <input type="month" name="start_day"> 
+            <input type="month" name="end_day">       
+        </div>
+        <div class="initial_amount">
+            <h3>초기자본</h3>
+            <input type='number' placeholder="₩" name="money">
+        </div>
+            <input type="submit" value="제출" name="select_info">
+    </form>
+</div>
+<div class="initial_values">
+    <h2>초기값</h2>
+    
+</div>
+<div class="end_value">
+    
+</div>
+<div class="chart">
+
+</div>
 </body>
 </html>
